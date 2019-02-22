@@ -1,0 +1,124 @@
+body{
+    background-color:rgb(178, 221, 247);
+}
+
+/*---------nav------------*/
+ul {
+	list-style-type: none;
+	margin: 100;
+	overflow: scroll;
+	margin-bottom: 20px; /* space between header and content */
+	background-color: #333;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: white;
+	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px
+  }
+
+.current{text-transform: uppercase; 
+	background-color: rgba(31, 121, 238, 0.418);
+	color: white;
+}
+
+.skip-main {
+	color: rgb(178, 221, 247);
+	text-decoration: none;
+}
+
+/*---------- footer----------- */
+.footer {
+    background-color: #333;
+    color: #eeeeee;
+    border-top: 1px solid white;
+    height: 20px;  /* footer height */
+    padding-top: 0;
+    display: block;
+    margin-top: 20px; /* space between content and footer */
+    box-sizing: border-box;
+    position: relative;
+		width: 100%;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 10px
+}
+
+/* ------ fonts ---FIND CONVERSION RATES*/
+h1{font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+}
+h2{font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+p{font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	line-height: 200%;
+}
+
+/* ------flexbox ------ */
+.flexcontainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.about-image{
+	object-fit: contain;
+	align-self: flex-start;
+	width: auto;
+	height: auto;
+	max-width: 25%;
+	max-height: 25%;
+	margin: 0 100px 20px 100px;
+}
+
+.body{
+	margin: 0 100px 20px 100px;
+}
+
+.flexcontainer-text{
+	height: 100%;
+}
+
+
+/*
+@media only screen and (min-width: 600px) {
+	body {
+
+}
+
+/*images 
+.profile_responsive{
+	object-fit: contain;
+	align-self: flex-start
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.ala_logo_responsive{
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.reserach_responsive{
+	max-width: 70%;
+	max-height: 70%;
+}
+
+
+
+}
+*/
